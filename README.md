@@ -11,4 +11,4 @@ PCB v1 has a couple of bugs (mainly because I used the wrong revision of Jacobs 
 I already fixed most of the issued in the schematics for version 2. I hope that together we can make a second version of the PCB that runs more smooth!
 
 ## Case
-I created a case which can be fabbed by a lasercutter. The SVG is available in the repo. Here is an image of the first finished prototype: ![UM-TSS first prototype](https://raw.githubusercontent.com/tommueller/UM-TSS/master/front-on.JPG)
+I created a case which can be fabbed by a lasercutter. The SVG is available in the repo. The plans are for 3mm material! Here is an image of the first finished prototype (3mm colored HDF): ![UM-TSS first prototype](https://raw.githubusercontent.com/tommueller/UM-TSS/master/front-on.JPG)
