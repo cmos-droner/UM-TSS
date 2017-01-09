@@ -1,0 +1,606 @@
+EESchema Schematic File Version 2
+LIBS:ummtss-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ummtss-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 6700 1200 0    60   ~ 0
+Trigger In
+Text Notes 6700 1300 0    60   ~ 0
+GND
+Text Notes 6700 1400 0    60   ~ 0
+Pitch_AB
+Text Notes 6700 1500 0    60   ~ 0
+Pitch_C
+Text Notes 6700 1600 0    60   ~ 0
+Bass_AB
+Text Notes 6700 1700 0    60   ~ 0
+Bass_C
+$Comp
+L CONN_01X12 P3
+U 1 1 574CFF18
+P 6500 1750
+F 0 "P3" H 6500 2400 50  0000 C CNN
+F 1 "Bassdrum" V 6600 1750 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x12" H 6500 1750 50  0001 C CNN
+F 3 "" H 6500 1750 50  0000 C CNN
+	1    6500 1750
+	1    0    0    -1  
+$EndComp
+Text Notes 6700 1800 0    60   ~ 0
+Vol_A
+Text Notes 6700 1900 0    60   ~ 0
+Vol_B
+Text Notes 6700 2000 0    60   ~ 0
+Vol_C
+Text Notes 6700 2100 0    60   ~ 0
+Out
+Text Notes 6700 2200 0    60   ~ 0
+Out_GND
+Text Notes 6700 2300 0    60   ~ 0
+Out_SW
+$Comp
+L CONN_01X12 P2
+U 1 1 574D3842
+P 4100 1750
+F 0 "P2" H 4100 2400 50  0000 C CNN
+F 1 "HiHat" V 4200 1750 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x12" H 4100 1750 50  0001 C CNN
+F 3 "" H 4100 1750 50  0000 C CNN
+	1    4100 1750
+	1    0    0    -1  
+$EndComp
+Text Notes 4250 1200 0    60   ~ 0
+Trigger In
+Text Notes 4250 1300 0    60   ~ 0
+GND
+Text Notes 4250 1400 0    60   ~ 0
+Pitch_AB
+Text Notes 4250 1500 0    60   ~ 0
+Pitch_C
+Text Notes 4250 1600 0    60   ~ 0
+Open_A
+Text Notes 4250 1700 0    60   ~ 0
+Open_BC
+Text Notes 4250 1800 0    60   ~ 0
+Vol_A
+Text Notes 4250 1900 0    60   ~ 0
+Vol_B
+Text Notes 4250 2000 0    60   ~ 0
+Vol_C
+Text Notes 4250 2100 0    60   ~ 0
+Out
+Text Notes 4250 2200 0    60   ~ 0
+Out_GND
+Text Notes 4250 2300 0    60   ~ 0
+Out_SW
+$Comp
+L CONN_01X10 P4
+U 1 1 574D7834
+P 9400 1650
+F 0 "P4" H 9400 2200 50  0000 C CNN
+F 1 "Snare" V 9500 1650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x10" H 9400 1650 50  0001 C CNN
+F 3 "" H 9400 1650 50  0000 C CNN
+	1    9400 1650
+	1    0    0    -1  
+$EndComp
+Text Notes 9550 1200 0    60   ~ 0
+Trigger In
+Text Notes 9550 1300 0    60   ~ 0
+GND
+Text Notes 9550 1400 0    60   ~ 0
+Pitch_AB
+Text Notes 9550 1500 0    60   ~ 0
+Pitch_C
+Text Notes 9550 1600 0    60   ~ 0
+Vol_A
+Text Notes 9550 1700 0    60   ~ 0
+Vol_B
+Text Notes 9550 1800 0    60   ~ 0
+Vol_C
+Text Notes 9550 1900 0    60   ~ 0
+Out
+Text Notes 9550 2000 0    60   ~ 0
+Out_GND
+Text Notes 9550 2100 0    60   ~ 0
+Out_SW
+$Comp
+L CONN_01X04 P1
+U 1 1 574DCECC
+P 2200 850
+F 0 "P1" H 2200 1100 50  0000 C CNN
+F 1 "PWR" V 2300 850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 2200 850 50  0001 C CNN
+F 3 "" H 2200 850 50  0000 C CNN
+	1    2200 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L JACK_2P J3
+U 1 1 581743FD
+P 5600 850
+F 0 "J3" H 5250 650 50  0000 C CNN
+F 1 "JACK_2P" H 5450 1100 50  0000 C CNN
+F 2 "KiCAD-SDIY:jack-PJ301M" H 5600 850 50  0001 C CNN
+F 3 "" H 5600 850 50  0000 C CNN
+	1    5600 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L JACK_2P J4
+U 1 1 58174460
+P 5600 2450
+F 0 "J4" H 5250 2250 50  0000 C CNN
+F 1 "JACK_2P" H 5450 2700 50  0000 C CNN
+F 2 "KiCAD-SDIY:jack-PJ301M" H 5600 2450 50  0001 C CNN
+F 3 "" H 5600 2450 50  0000 C CNN
+	1    5600 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT RV4
+U 1 1 581744B3
+P 5200 1300
+F 0 "RV4" H 5200 1220 50  0000 C CNN
+F 1 "POT" H 5200 1300 50  0000 C CNN
+F 2 "KiCAD-SDIY:pot_alpha-9mm--vertical" H 5200 1300 50  0001 C CNN
+F 3 "" H 5200 1300 50  0000 C CNN
+	1    5200 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L POT RV5
+U 1 1 58174508
+P 5200 1650
+F 0 "RV5" H 5200 1570 50  0000 C CNN
+F 1 "POT" H 5200 1650 50  0000 C CNN
+F 2 "KiCAD-SDIY:pot_alpha-9mm--vertical" H 5200 1650 50  0001 C CNN
+F 3 "" H 5200 1650 50  0000 C CNN
+	1    5200 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L POT RV6
+U 1 1 5817452D
+P 5200 2000
+F 0 "RV6" H 5200 1920 50  0000 C CNN
+F 1 "POT" H 5200 2000 50  0000 C CNN
+F 2 "KiCAD-SDIY:pot_alpha-9mm--vertical" H 5200 2000 50  0001 C CNN
+F 3 "" H 5200 2000 50  0000 C CNN
+	1    5200 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L JACK_2P J1
+U 1 1 58175018
+P 3200 850
+F 0 "J1" H 2850 650 50  0000 C CNN
+F 1 "JACK_2P" H 3050 1100 50  0000 C CNN
+F 2 "KiCAD-SDIY:jack-PJ301M" H 3200 850 50  0001 C CNN
+F 3 "" H 3200 850 50  0000 C CNN
+	1    3200 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L JACK_2P J2
+U 1 1 5817501E
+P 3200 2450
+F 0 "J2" H 2850 2250 50  0000 C CNN
+F 1 "JACK_2P" H 3050 2700 50  0000 C CNN
+F 2 "KiCAD-SDIY:jack-PJ301M" H 3200 2450 50  0001 C CNN
+F 3 "" H 3200 2450 50  0000 C CNN
+	1    3200 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT RV1
+U 1 1 58175024
+P 2800 1300
+F 0 "RV1" H 2800 1220 50  0000 C CNN
+F 1 "POT" H 2800 1300 50  0000 C CNN
+F 2 "KiCAD-SDIY:pot_alpha-9mm--vertical" H 2800 1300 50  0001 C CNN
+F 3 "" H 2800 1300 50  0000 C CNN
+	1    2800 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L POT RV2
+U 1 1 5817502A
+P 2800 1650
+F 0 "RV2" H 2800 1570 50  0000 C CNN
+F 1 "POT" H 2800 1650 50  0000 C CNN
+F 2 "KiCAD-SDIY:pot_alpha-9mm--vertical" H 2800 1650 50  0001 C CNN
+F 3 "" H 2800 1650 50  0000 C CNN
+	1    2800 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L POT RV3
+U 1 1 58175030
+P 2800 2000
+F 0 "RV3" H 2800 1920 50  0000 C CNN
+F 1 "POT" H 2800 2000 50  0000 C CNN
+F 2 "KiCAD-SDIY:pot_alpha-9mm--vertical" H 2800 2000 50  0001 C CNN
+F 3 "" H 2800 2000 50  0000 C CNN
+	1    2800 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L JACK_2P J5
+U 1 1 58175B0B
+P 8500 850
+F 0 "J5" H 8150 650 50  0000 C CNN
+F 1 "JACK_2P" H 8350 1100 50  0000 C CNN
+F 2 "KiCAD-SDIY:jack-PJ301M" H 8500 850 50  0001 C CNN
+F 3 "" H 8500 850 50  0000 C CNN
+	1    8500 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L JACK_2P J6
+U 1 1 58175B11
+P 8500 2200
+F 0 "J6" H 8150 2000 50  0000 C CNN
+F 1 "JACK_2P" H 8350 2450 50  0000 C CNN
+F 2 "KiCAD-SDIY:jack-PJ301M" H 8500 2200 50  0001 C CNN
+F 3 "" H 8500 2200 50  0000 C CNN
+	1    8500 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT RV7
+U 1 1 58175B17
+P 8100 1300
+F 0 "RV7" H 8100 1220 50  0000 C CNN
+F 1 "POT" H 8100 1300 50  0000 C CNN
+F 2 "KiCAD-SDIY:pot_alpha-9mm--vertical" H 8100 1300 50  0001 C CNN
+F 3 "" H 8100 1300 50  0000 C CNN
+	1    8100 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L POT RV8
+U 1 1 58175B23
+P 8100 1750
+F 0 "RV8" H 8100 1670 50  0000 C CNN
+F 1 "POT" H 8100 1750 50  0000 C CNN
+F 2 "KiCAD-SDIY:pot_alpha-9mm--vertical" H 8100 1750 50  0001 C CNN
+F 3 "" H 8100 1750 50  0000 C CNN
+	1    8100 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L BARREL_JACK CON1
+U 1 1 58177237
+P 1100 800
+F 0 "CON1" H 1100 1050 50  0000 C CNN
+F 1 "BARREL_JACK" H 1100 600 50  0000 C CNN
+F 2 "Connectors:BARREL_JACK" H 1100 800 50  0001 C CNN
+F 3 "" H 1100 800 50  0000 C CNN
+	1    1100 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPST SW1
+U 1 1 58177546
+P 1250 1300
+F 0 "SW1" H 1250 1400 50  0000 C CNN
+F 1 "SPST" H 1250 1200 50  0000 C CNN
+F 2 "Buttons_Switches_THT:SW_Micro_SPST" H 1250 1300 50  0001 C CNN
+F 3 "" H 1250 1300 50  0000 C CNN
+	1    1250 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X05 P5
+U 1 1 58177A5F
+P 2200 2200
+F 0 "P5" H 2200 2500 50  0000 C CNN
+F 1 "OUTPUT" V 2300 2200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x05" H 2200 2200 50  0001 C CNN
+F 3 "" H 2200 2200 50  0000 C CNN
+	1    2200 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L POT RV9
+U 1 1 58177B58
+P 1550 2050
+F 0 "RV9" H 1550 1970 50  0000 C CNN
+F 1 "POT" H 1550 2050 50  0000 C CNN
+F 2 "KiCAD-SDIY:pot_alpha-9mm--vertical" H 1550 2050 50  0001 C CNN
+F 3 "" H 1550 2050 50  0000 C CNN
+	1    1550 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L JACK_2P J7
+U 1 1 58177C1E
+P 1400 2650
+F 0 "J7" H 1050 2450 50  0000 C CNN
+F 1 "JACK_2P" H 1250 2900 50  0000 C CNN
+F 2 "KiCAD-SDIY:jack-PJ301M" H 1400 2650 50  0001 C CNN
+F 3 "" H 1400 2650 50  0000 C CNN
+	1    1400 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 700  1400 700 
+Wire Wire Line
+	2000 1000 1850 1000
+Wire Wire Line
+	6050 700  6200 700 
+Wire Wire Line
+	6200 700  6200 1300
+Wire Wire Line
+	6200 1300 6300 1300
+Wire Wire Line
+	6050 950  6300 950 
+Wire Wire Line
+	6300 950  6300 1200
+Wire Wire Line
+	5200 1150 5350 1150
+Wire Wire Line
+	5350 1150 5350 1300
+Wire Wire Line
+	5350 1300 6100 1300
+Wire Wire Line
+	6100 1300 6100 1400
+Wire Wire Line
+	6100 1400 6300 1400
+Wire Wire Line
+	5200 1450 6050 1450
+Wire Wire Line
+	6050 1450 6050 1500
+Wire Wire Line
+	6050 1500 6300 1500
+Wire Wire Line
+	5200 1500 5350 1500
+Wire Wire Line
+	5350 1500 5350 1650
+Wire Wire Line
+	6300 1600 5350 1600
+Connection ~ 5350 1600
+Wire Wire Line
+	5200 1800 6050 1800
+Wire Wire Line
+	6050 1800 6050 1700
+Wire Wire Line
+	6050 1700 6300 1700
+Wire Wire Line
+	5350 2000 6150 2000
+Wire Wire Line
+	6150 2000 6150 1900
+Wire Wire Line
+	6150 1900 6300 1900
+Wire Wire Line
+	5200 1850 6300 1850
+Wire Wire Line
+	6300 1850 6300 1800
+Wire Wire Line
+	5200 2150 6200 2150
+Wire Wire Line
+	6200 2150 6200 2000
+Wire Wire Line
+	6200 2000 6300 2000
+Wire Wire Line
+	6050 2550 6250 2550
+Wire Wire Line
+	6250 2550 6250 2100
+Wire Wire Line
+	6250 2100 6300 2100
+Wire Wire Line
+	6050 2300 6150 2300
+Wire Wire Line
+	6150 2300 6150 2200
+Wire Wire Line
+	6150 2200 6300 2200
+Wire Wire Line
+	6050 2450 6300 2450
+Wire Wire Line
+	6300 2450 6300 2300
+Wire Wire Line
+	3650 700  3800 700 
+Wire Wire Line
+	3800 700  3800 1300
+Wire Wire Line
+	3800 1300 3900 1300
+Wire Wire Line
+	3650 950  3900 950 
+Wire Wire Line
+	2800 1150 2950 1150
+Wire Wire Line
+	2950 1150 2950 1300
+Wire Wire Line
+	2950 1300 3700 1300
+Wire Wire Line
+	3700 1300 3700 1400
+Wire Wire Line
+	3700 1400 3900 1400
+Wire Wire Line
+	2800 1450 3650 1450
+Wire Wire Line
+	3650 1450 3650 1500
+Wire Wire Line
+	3650 1500 3900 1500
+Wire Wire Line
+	2800 1500 2950 1500
+Wire Wire Line
+	2950 1500 2950 1650
+Wire Wire Line
+	3900 1600 2950 1600
+Connection ~ 2950 1600
+Wire Wire Line
+	2800 1800 3650 1800
+Wire Wire Line
+	3650 1800 3650 1700
+Wire Wire Line
+	3650 1700 3900 1700
+Wire Wire Line
+	2950 2000 3750 2000
+Wire Wire Line
+	3750 2000 3750 1900
+Wire Wire Line
+	3750 1900 3900 1900
+Wire Wire Line
+	2800 1850 3900 1850
+Wire Wire Line
+	2800 2150 3800 2150
+Wire Wire Line
+	3800 2150 3800 2000
+Wire Wire Line
+	3800 2000 3900 2000
+Wire Wire Line
+	3650 2550 3850 2550
+Wire Wire Line
+	3850 2550 3850 2100
+Wire Wire Line
+	3850 2100 3900 2100
+Wire Wire Line
+	3650 2300 3750 2300
+Wire Wire Line
+	3750 2300 3750 2200
+Wire Wire Line
+	3750 2200 3900 2200
+Wire Wire Line
+	3650 2450 3900 2450
+Wire Wire Line
+	3900 950  3900 1200
+Wire Wire Line
+	3900 1850 3900 1800
+Wire Wire Line
+	3900 2450 3900 2300
+Wire Wire Line
+	8950 700  9100 700 
+Wire Wire Line
+	9100 700  9100 1300
+Wire Wire Line
+	9100 1300 9200 1300
+Wire Wire Line
+	8100 1150 8250 1150
+Wire Wire Line
+	8250 1150 8250 1300
+Wire Wire Line
+	8250 1300 9000 1300
+Wire Wire Line
+	9000 1300 9000 1400
+Wire Wire Line
+	9000 1400 9200 1400
+Wire Wire Line
+	8100 1450 8950 1450
+Wire Wire Line
+	8950 1450 8950 1500
+Wire Wire Line
+	8950 1500 9200 1500
+Wire Wire Line
+	8100 1600 9200 1600
+Wire Wire Line
+	8100 1900 9100 1900
+Wire Wire Line
+	8950 2300 9150 2300
+Wire Wire Line
+	8950 950  8950 1200
+Wire Wire Line
+	8950 1200 9200 1200
+Wire Wire Line
+	9000 1750 9000 1700
+Wire Wire Line
+	9000 1700 9200 1700
+Wire Wire Line
+	9100 1900 9100 1800
+Wire Wire Line
+	9100 1800 9200 1800
+Wire Wire Line
+	9000 1750 8250 1750
+Wire Wire Line
+	8950 2050 9200 2050
+Wire Wire Line
+	9200 2050 9200 2000
+Wire Wire Line
+	9150 2300 9150 1900
+Wire Wire Line
+	9150 1900 9200 1900
+Wire Wire Line
+	8950 2200 8950 2100
+Wire Wire Line
+	8950 2100 9200 2100
+Wire Wire Line
+	1400 900  1600 900 
+Wire Wire Line
+	1600 900  1600 800 
+Wire Wire Line
+	1600 800  2000 800 
+Wire Wire Line
+	750  1300 750  1100
+Wire Wire Line
+	750  1100 1700 1100
+Wire Wire Line
+	1700 1100 1700 900 
+Wire Wire Line
+	1700 900  2000 900 
+Wire Wire Line
+	1850 1000 1850 1300
+Wire Wire Line
+	1850 1300 1750 1300
+Wire Wire Line
+	1550 1900 2000 1900
+Wire Wire Line
+	2000 1900 2000 2000
+Wire Wire Line
+	1700 2050 2000 2050
+Wire Wire Line
+	2000 2050 2000 2100
+Wire Wire Line
+	1550 2200 2000 2200
+Wire Wire Line
+	1850 2500 2000 2500
+Wire Wire Line
+	2000 2500 2000 2400
+Wire Wire Line
+	1850 2750 1950 2750
+Wire Wire Line
+	1950 2750 1950 2300
+Wire Wire Line
+	1950 2300 2000 2300
+$EndSCHEMATC
