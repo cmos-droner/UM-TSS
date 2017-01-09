@@ -9,3 +9,6 @@ When you are finished with this, you need to do the following to get this up and
 - take C9 (10uF) and solder it with its positive side to pin 12 of U3 and the negative side to the negative pad of C9
 
 Again you can doublecheck with this image: ![](https://raw.githubusercontent.com/tommueller/UM-TSS/master/schematics%20v1/pcb%20v1%20populated%20back.JPG)
+
+##Pots
+The labeling of the pots is not correct! I will add a detailed wiring guide soon!
