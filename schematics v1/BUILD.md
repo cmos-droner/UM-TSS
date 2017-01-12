@@ -18,3 +18,6 @@ Basically the wiring is self-explaining. Every section of the circuit has its ow
 
 ###Pots
 The labeling of the pots is not correct! I will add a detailed wiring guide soon!
+
+##Instrument outs
+All the "instruments" have a sngle out, which takes it out of the mix as well. These signals do not run through UM-TSS amp, so you will probably need to amplify them!
