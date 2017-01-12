@@ -10,5 +10,11 @@ When you are finished with this, you need to do the following to get this up and
 
 Again you can doublecheck with this image: ![](https://raw.githubusercontent.com/tommueller/UM-TSS/master/schematics%20v1/pcb%20v1%20populated%20back.JPG)
 
-##Pots
+##LED
+The resistor for the led is not placed on the pcb. Please wire the led with a 1k resistor in series between + and GND. Do this behind the on/off-switch off course. The LED-mountin hole is 6mm, I used this [led mounting clips](https://www.taydaelectronics.com/3mm-bezel-led-panel-mounting-clip.html).
+
+##Wiring
+Basically the wiring is self-explaining. Every section of the circuit has its own row of ins-/outs. You can use it to mount headers or just solder the parts in directly. All the solder pads are labeled.
+
+###Pots
 The labeling of the pots is not correct! I will add a detailed wiring guide soon!
