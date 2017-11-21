@@ -1,4 +1,4 @@
-#Build instructions
+# Build instructions
 Build the PCB as usual using the [BOM](https://github.com/tommueller/UM-TSS/blob/master/schematics%20v1/BOM.ods?raw=true) **BUT** do not add caps: **C5, C7, C9, C12 and C13**. You can doublecheck with this image: ![](https://github.com/tommueller/UM-TSS/blob/master/schematics%20v1/pcb%20v1%20populated%20front.JPG?raw=true)
 
 When you are finished with this, you need to do the following to get this up and running:
@@ -10,17 +10,17 @@ When you are finished with this, you need to do the following to get this up and
 
 Again you can doublecheck with this image: ![](https://raw.githubusercontent.com/tommueller/UM-TSS/master/schematics%20v1/pcb%20v1%20populated%20back.JPG)
 
-##LED
+## LED
 The resistor for the led is not placed on the pcb. Please wire the led with a 1k resistor in series between + and GND. Do this behind the on/off-switch off course. The LED-mountin hole is 6mm, I used this [led mounting clips](https://www.taydaelectronics.com/3mm-bezel-led-panel-mounting-clip.html).
 
-##DC in
+## DC in
 The UM-TSS expects 9V input voltage. The LM7805 has a much wider range though, so anything between 9V and 15V shouldn't be a problem. I use this [dc power jack](https://www.taydaelectronics.com/dc-power-jack-2-1mm-enclosed-frame-with-switch-external.html).
 
-##Wiring
+## Wiring
 Basically the wiring is self-explaining. Every section of the circuit has its own row of ins-/outs. You can use it to mount headers or just solder the parts in directly. All the solder pads are labeled.
 
-###Pots
+### Pots
 The labeling of the pots is not correct! I will add a detailed wiring guide soon!
 
-##Instrument outs
+## Instrument outs
 All the "instruments" have a sngle out, which takes it out of the mix as well. These signals do not run through UM-TSS amp, so you will probably need to amplify them!
